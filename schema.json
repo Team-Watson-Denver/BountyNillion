@@ -19,7 +19,7 @@
           },
           "required": ["%share"]
         },
-        "responses": { // TODO: Rename to "skills"
+        "responses": { 
           "type": "array",
           "items": {
             "type": "object",
@@ -39,6 +39,6 @@
           "minItems": 1
         }
       },
-      "required": ["_id", "name", "skills"] // TODO: Rename to "add title section and any other sections"
+      "required": ["_id", "name", "skills"] 
     }
   }
